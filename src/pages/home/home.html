@@ -1,0 +1,11 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <button ion-button full (click)="openCamera()">Open camera</button>
+    <button ion-button full (click)="openCGallery()">Open gallery</button>
+    <img [src]="base64Image" />
+</ion-content>
